@@ -1,0 +1,39 @@
+.top {
+	margin-bottom: 0px;
+}
+
+.fimg1 {
+	background-size: auto;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.end {
+	background-color: #0058a3;
+	background-size: cover;
+	background-position:  center;
+	font-size: 15px;
+	color: 	white;
+	margin-bottom: 	0px;
+	padding-bottom: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+ }
+}

@@ -1,0 +1,133 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+
+body{
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.topnav {
+  background-color: rgb(0, 49, 156);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffce00;
+  color: white;
+}
+
+.topnav img {
+  float: left;
+}
+
+.header-txt {
+  position: center;
+  color: hotpink;
+  text-shadow: ;
+}
+
+h2 {
+  font-size: 35px;
+  color: black;
+  background-color: rgba(255,255,255, 0.3);
+}
+
+
+h1{
+  color: white;
+  background-color: rgba(255,255,255, 0.3);
+}
+
+a{
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  }
+
+.body
+{
+  box-shadow: 2px 3px 4px black;
+  width: 1200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.product_01 {
+  box-shadow: 2px 3px 4px hotpink;
+  width: 2000px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.div_shadow{
+  box-shadow: none;
+}
+
+ .carousel_img{
+    height: 300px;
+    object-fit: cover;
+  }
+
+.slide{
+  margin-top: 50px;
+}
+
+.youtube  {
+  position: relative;
+  padding-bottom: 30%;
+  padding-top: none;
+  height: 0;
+  overflow: hidden;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .div_shadow {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .div_shadow {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .div_shadow {
+    width: 300px;
+  }
+}
+
